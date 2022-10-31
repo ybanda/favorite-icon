@@ -1,0 +1,10 @@
+<i class="glyphicon"
+     
+       (click) ="onClick()"
+       [ngClass]= "{
+          'glyphicon-star':isFavorite,
+          'glyphicon-star-empty':!isFavorite
+       }">
+       </i>
+<app-favorite>favorite</app-favorite>
+
